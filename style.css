@@ -9,7 +9,36 @@ h1{
 .square{
     width: 100px;
     height: 100px;
-    background-color: black;
-    border: 2px solid gray;
+    background-color: grey;
+    border: 2px solid black;
     display: inline-block;
+}
+
+.o{
+    position: relative;
+}
+.o::after{
+    position: absolute;
+    content:"\2B55";
+    font-size: 60px;
+    line-height: 100px;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+}
+.x{
+    position: relative;
+}
+.x::after{
+    position: absolute;
+    content:"\274C";
+    font-size: 60px;
+    line-height: 100px;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
 }
