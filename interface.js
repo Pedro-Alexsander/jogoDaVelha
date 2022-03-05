@@ -10,7 +10,7 @@ function handleClick(event){
    if (handleMove(position)== true){
 
         setTimeout(()=>{
-            alert("Fim de jogo")
+            alert("Fim de jogo - O vencedor foi " + playerTime)
         },10)
        
    }
