@@ -7,7 +7,13 @@ document.addEventListener("DOMContentLoaded", ()=>{
 function handleClick(event){
     let square = event.target
     let position = square.id
-    handleMove(position);
+   if (handleMove(position)== true){
+
+        setTimeout(()=>{
+            alert("Fim de jogo")
+        },10)
+       
+   }
     uptadeSquares();
 }
 
